@@ -76,7 +76,7 @@ pca = PCA(n_components=2)
 X_pca = pca.fit_transform(X_train_res)
 ```
 
-> 🔧 *Sugestão para produção real: aplicar PCA com mais componentes (ex: `n_components=0.95`) antes de treinar os modelos.*
+>  *Sugestão para produção real: aplicar PCA com mais componentes (ex: `n_components=0.95`) antes de treinar os modelos.*
 
 ---
 
@@ -102,7 +102,7 @@ rf.fit(X_train_res, y_train_res)
 
 ---
 
- 7. 📈 Avaliação dos Modelos
+ 7.  Avaliação dos Modelos
 
 São calculadas métricas como:
 
