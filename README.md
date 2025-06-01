@@ -161,3 +161,7 @@ plt.plot(fpr_rf, tpr_rf, label='Random Forest (AUC = %0.2f)' % roc_auc_rf)
 * Jolliffe (2002) — PCA
 * Chawla et al. (2002) — SMOTE
 * Pozzolo et al. (2015) — Detecção de Fraudes com RF + SMOTE
+
+  Download do Dataset
+
+O dataset utilizado neste projeto é o [Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud), disponível gratuitamente no Kaggle.
